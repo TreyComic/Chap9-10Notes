@@ -1,0 +1,45 @@
+public class Duck2{
+int size;
+public Duck2 (){
+    //supply default duckSize !!!
+    size = 27;
+}
+}
+
+
+public Duck2 (int duckSize){
+    // use duckSize parameter !!!
+    size = duckSize;
+}
+
+when making a new duck object we can set our value in the args
+Duck2 d = new Duck2(15);
+
+You can have more than 1 constructor in a class based on variable type
+
+public Duck(){}
+public Duck(int size){}
+public Duck(String name){}
+public Duck(String name, int size){}
+
+Hippo.weight();
+weight is our method within hippo in theory
+
+Class Player{
+    static int PlayerCount = 0;
+    private String name;
+    public Player(String n){
+        name = n;
+        playerCount ++; 
+    }
+}
+
+Class Player{
+    static int PlayerCount = 0; //our newly set and locked number based on iteration
+    private String name; //set our name
+    public Player(String n){ //taking in our name based on object args
+        name = n; //set args to set name to make new name updated
+        playerCount ++; //adds a player count each creation of an object
+    }
+}
+
